@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Auto-sized header, 1fr (remaining space) for the main and sidebar */
+    grid-template-columns: 3fr 1fr; /* 3/4 of the space for the main, 1/4 for the sidebar */
+    grid-template-areas:
+        "header header"
+        "main sidebar";
+    height: 100vh; /* Set the height of the grid to 100% of the viewport height */
+    margin: 0; /* Remove default margin to avoid spacing issues */
+}
+
+header {
+    grid-area: header;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+}

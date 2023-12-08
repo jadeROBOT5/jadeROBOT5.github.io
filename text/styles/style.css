@@ -1,0 +1,49 @@
+.body{
+    background-color: lightblue;
+}
+
+.box{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 4px 4px 0 (0,0,0,0.1);
+    padding: 20px;
+}
+
+.box1 {background: lightpink}
+.box2 {background: lightpink}
+.box3 {background: lightpink}
+
+.container {
+    display: flex;
+    border: 5px solid rgb(237, 129, 189);
+    /* min-height: 100vh; */
+    flex-direction: wrap;
+    justify-content: flex-end;
+}
+
+.box1{
+    flex-basis: 100px;
+    margin-right: 10px;
+}
+
+.box2{
+    flex-basis: 250px;
+    margin-right: 10px;
+}
+
+.box3{
+    flex-basis: 100px;
+    margin-right: 10px;
+}
+
+body{
+    border: 5px lightpink;
+    border-style: dotted;
+}
+
+.img{
+    margin: 0 auto;
+    width: 300px;
+    margin: 0 auto;
+}
